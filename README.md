@@ -11,8 +11,6 @@ Emergency Commond System：[ecs-mobile地址](https://github.com/bill1012/ecs-mo
 
 ## 1）项目分包
 
------------
-
 - hooks 
 - merges  
     - android
@@ -58,7 +56,7 @@ Emergency Commond System：[ecs-mobile地址](https://github.com/bill1012/ecs-mo
 - package.json
 
 ## 2）项目运行（demo)
--------------------------------
+
 以`Linux`系统为例
 
 安装Cordova
@@ -82,12 +80,13 @@ cordova run browser
 -  通过后端配置菜单过滤前端路由，达到前后完全分离
 
 
-##4）开发协作和代码管理
+## 4）开发协作和代码管理
+
 **开发依据**： 根据需求文档和原型设计进行软件设计和开发
 **任务分配**： 通过`Teambition`（或者Jira）进行任务分配和进度管理，通过`Moxtra`（或者qq）进行沟通和协作
 **代码管理**：通过`Git`（或者svn）进行代码管理，（最好建立私有代码库或者有自己的仓库）
 
-##5）后端架构
+## 5）后端架构
 后端框架暂定，推荐使用AdminEAP，地址见：[https://github.com/bill1012/AdminEAP](https://github.com/bill1012/AdminEAP)，不过鉴权方式需要由spring-shiro改成jwt。
 
 视频会商将采用第三方的商用产品
