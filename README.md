@@ -1,0 +1,46 @@
+# 手机应急平台-开发架构
+
+手机应急平台基于`framework7`+`Cordova`的解决方案，framework7
+- hooks 
+- merges
+    - android
+    - ios
+- platforms
+- plugins
+- res 
+- www
+    - api
+        - consultation  视频会商
+        - contact     通讯录
+        - decision    辅助决策
+        - duty        值班安排
+        - plan        应急预案
+        - process     突发事件
+        - resource    资源管理
+        - system      系统设置
+    - components
+    - css
+    - fonts
+    - framework7
+        - components 
+        - css
+        - js
+        - less
+        - modules
+        - pages
+        - utils
+    - img
+    - js
+    - utils
+    - views
+        - consultation  视频会商
+        - contact     通讯录
+        - decision    辅助决策
+        - duty        值班安排
+        - plan        应急预案
+        - process     突发事件
+        - resource    资源管理
+        - system      系统设置
+    - index.html 入口文件
+- config.xml
+- package.json
