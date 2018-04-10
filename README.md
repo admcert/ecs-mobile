@@ -3,8 +3,8 @@ Emergency Commond System：[ecs-mobile地址](https://github.com/bill1012/ecs-mo
 
 手机应急平台基于`framework7`+`Cordova`的hybird解决方案，framework7作为前端UI为android提供Material design，同时在ios下性能表现优异，接近原生应用效果，通过在Cordova下打包后，分别在android和ios下运行，可节省开发工作量，提高效率。
 
-framework7的文档见：[https://framework7.io/docs/introduction.html](https://framework7.io/docs/introduction.html)
-Cordova的文档见：[http://cordova.apache.org/docs/en/latest/](http://cordova.apache.org/docs/en/latest/)
+- framework7的文档见：[https://framework7.io/docs/introduction.html](https://framework7.io/docs/introduction.html)
+- Cordova的文档见：[http://cordova.apache.org/docs/en/latest/](http://cordova.apache.org/docs/en/latest/)
 
 本项目的分包结构如下，更多的Cordova项目结构说明见：
 [http://cordova.apache.org/docs/en/latest/reference/cordova-cli/index.html#directory-structure](http://cordova.apache.org/docs/en/latest/reference/cordova-cli/index.html#directory-structure) 
