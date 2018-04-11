@@ -25,7 +25,7 @@ xxxx平台基于`framework7`+`Cordova`的hybird解决方案，framework7作为�
         - decision    *辅助决策*
         - duty        *值班安排*
         - plan        *应急预案*
-        - process     *突发事件*
+        - event     *突发事件*
         - resource    *资源管理*
         - system      *系统设置*
     - components *第三方手动引入的组件包*
@@ -48,7 +48,7 @@ xxxx平台基于`framework7`+`Cordova`的hybird解决方案，framework7作为�
         - decision    *辅助决策*
         - duty        *值班安排*
         - plan        *应急预案*
-        - process     *突发事件*
+        - event     *突发事件*
         - resource    *资源管理*
         - system      *系统设置*
     - index.html *入口文件、系统首页*
