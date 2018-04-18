@@ -67,7 +67,7 @@
   text-align: center;
 }
 
-.demo-list-icon, .icon-f7 {
+.demo-list-icon, .icon-f7, .icon-info ,.icon-danger,.icon-warning,icon-huge{
   background: #ccc;
   display: block;
   position: relative;
@@ -76,11 +76,31 @@
   background-color: #555;
 }
 .icon-f7 {
-  background: url(../img/f7-icon.png) no-repeat center;
+  background: url(../framework7/img/f7-icon.png) no-repeat center;
   background-size: cover;
 }
+.icon-info {
+  background: url(../img/icon-info.png) no-repeat center;
+  background-size: cover;
+}
+
+.icon-warning {
+  background: url(../img/icon-warning.png) no-repeat center;
+  background-size: cover;
+}
+
+.icon-danger {
+  background: url(../img/icon-danger.png) no-repeat center;
+  background-size: cover;
+}
+
+.icon-huge {
+  background: url(../img/icon-huge.png) no-repeat center;
+  background-size: cover;
+}
+
 .icon-vi {
-  background: url(../img/vi-icon.png) no-repeat center;
+  background: url(../framework7/img/vi-icon.png) no-repeat center;
   background-size: cover;
 }
 
@@ -95,6 +115,20 @@
   height: 24px;
   border-radius: 4px;
 }
+
+
+.ios .demo-list-icon, .ios .icon-danger, .ios .icon-info, .ios .icon-warning, .ios .icon-huge{
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+.md .demo-list-icon, .md .icon-danger, .md .icon-info, .md .icon-warning, .md .icon-huge {
+  width: 45px;
+  height: 45px;
+  border-radius: 6px;
+}
+
 
 /* Lazy Demo */
 img.demo-lazy {
@@ -464,4 +498,8 @@ code {
 }
 .theme-dark .demo-icon .demo-icon-name {
   color: #aaa;
+}
+
+.icon-sm{
+  font-size:12px;
 }
